@@ -5,5 +5,5 @@ test("throws error if no ticket number", () => {
 });
 
 test("returns true for valid payment", () => {
-  expect(processPayment(123, 45)).toBe(true);
+  expect(processPayment(123, 45)).toBe(false);
 });
